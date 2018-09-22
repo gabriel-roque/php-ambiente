@@ -1,4 +1,6 @@
 # php-ambiente
+!.[tag](https://img.shields.io/badge/NOTES-update-blue.svg?longCache=true&style=flat-square)
+
 Repositório de anotações de configuração PHP sem uso de Docker
 
 # Linux
@@ -89,3 +91,45 @@ sera substituida pela pasta que esta em:
 6- Feito a substiucao da pasta, basta abrir seu LAMP e ser feliz!
 
 *mesmo procedimento sever para versoes posteriores, caso nao venha nativo de seu OS ou do LAMP*
+
+### Manualmente
+
+##### Instalar o Apache
+
+Para instalar o Apache, abra o terminal e digite os seguintes comandos:
+`sudo apt-get updatesudo apt-get install apache2`
+
+##### Install MySQL
+
+1- Para instalar MySQL, abra o terminal e digite os seguintes comandos:
+`sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql`
+2- Para fazer a configuração inicial, execute script:
+`sudo /usr/bin/mysql_secure_installation`
+3- O prompt irá pedir sua senha de root atual.
+`Enter current password for root (enter for none):`
+
+OK, successfully used password, moving on…
+Em seguida, o prompt irá perguntar se você deseja alterar a senha de root. Vá em frente e escolher N e passar para as próximas etapas.
+
+É mais fácil apenas para dizer Sim para todas as opções. No final, o MySQL irá recarregar e implementar as novas alterações.
+
+##### Instalar o php, segue o mesmo processo do LAMP
+
+#### Install Composer
+
+1- Basta executar o comando para instalar
+
+`sudo apt install composer`
+
+2- Execute o comando para verificar 
+
+`composer -v`
+
+3 - Finalizado!
+
+
+
+
+
+
+
