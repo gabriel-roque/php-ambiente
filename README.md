@@ -103,13 +103,17 @@ Para instalar o Apache, abra o terminal e digite os seguintes comandos:
 
 1- Para instalar MySQL, abra o terminal e digite os seguintes comandos:
 `sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql`
+
 2- Para fazer a configuração inicial, execute script:
 `sudo /usr/bin/mysql_secure_installation`
+
 3- O prompt irá pedir sua senha de root atual.
 `Enter current password for root (enter for none):`
 
 OK, successfully used password, moving on…
-Em seguida, o prompt irá perguntar se você deseja alterar a senha de root. Vá em frente e escolher N e passar para as próximas etapas.
+Em seguida, o prompt irá perguntar se você deseja alterar a senha de root. 
+
+Vá em frente e escolher N e passar para as próximas etapas.
 
 É mais fácil apenas para dizer Sim para todas as opções. No final, o MySQL irá recarregar e implementar as novas alterações.
 
