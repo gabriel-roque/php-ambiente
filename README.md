@@ -2,7 +2,7 @@
 Repositório de anotações de configuração PHP sem uso de Docker
 
 # Linux
-#### Voce pode escolher instalar via LAMP ou manualmente
+#### Há a opção de escolher instalar via LAMP ou manualmente
 
 * Linux (sistema operacional),
 * Apache (servidor web),
@@ -10,13 +10,14 @@ Repositório de anotações de configuração PHP sem uso de Docker
 * PHP (linguagens de programação) ou Python,
 
 ### Via LAMP
-1- Necessario instalacao: https://bitnami.com/stack/lamp/installer 
+1- Necessário instalação: https://bitnami.com/stack/lamp/installer 
 
-2- Logo apos a instalacao do mesmo, provavel de usar um IDEA. Escolha a de sua preferencia. 
+2- Logo apos a instalação do mesmo, provável de usar uma IDEA. Escolha a de sua preferência. 
 
 3- Recomenda-se PhpStorm da Jetbrains: https://www.jetbrains.com/phpstorm/ 
 
-3.1 - `opcional` instale configuracoes em seu phpStorm, inclusive esquema de cor Monokai Web: https://github.com/gabriel-roque/Jetbrains--Config
+3.1 - `opcional` instale configurações em seu phpStorm, inclusive esquema de cor Monokai Web 
+https://github.com/gabriel-roque/Jetbrains--Config
 
 4 - Abra o terminal e uso execute o seguintes comandos:
 
@@ -56,13 +57,13 @@ Ele ira realizar os install dessas dependencias:
 - php7.2-opcache
 - php7.2-readline
 
-### Verifique a versao do seu php
+### Verifique a versão do seu php
 
 ```
 php -v
 ```
 
-##### *Obs: porem se faz necessario a instalacao da dependecia do php-cgi*
+##### *Obs: porem se faz necessario a instalação da dependêcia do php-cgi*
 
 > retire as " " e coloque as versao ex: 7.2
 
@@ -85,7 +86,6 @@ sera substituida pela pasta que esta em:
 ![](https://i.imgur.com/3PuJSlb.png)
 
 
+6- Feito a substiução da pasta, basta abrir seu LAMP e ser feliz!
 
-6- Feito a substiucao da pasta, basta abrir seu LAMP e ser feliz!
-
-*mesmo procedimento sever para versoes posteriores, caso nao venha nativo de seu OS ou do LAMP*
+*mesmo procedimento server para versões posteriores, caso não venha nativo de seu OS ou do LAMP*
