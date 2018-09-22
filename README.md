@@ -82,7 +82,7 @@ sera substituida pela pasta que esta em:
 
 `/etc/php/`
 
-![](/home/gabriel-odyssey/Imagens/Screenshot_20180922_141509.png)
+![](https://i.imgur.com/3PuJSlb.png)
 
 
 
