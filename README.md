@@ -77,20 +77,7 @@ sudo apt-get install php"versao do seu php"-cgi
 sudo apt-get install php7.2-cgi
 ```
 
-5- Basta copiarmos o a pasta php e colaca-la na pasta do LAMP
-
-`/home/nome-do-computador/lampstack-7.0.32-0/php` 
-
-sera substituida pela pasta que esta em:
-
-`/etc/php/`
-
-![](https://i.imgur.com/3PuJSlb.png)
-
-
-6- Feito a substiução da pasta, basta abrir seu LAMP e ser feliz!
-
-*mesmo procedimento sever para versoes posteriores, caso nao venha nativo de seu OS ou do LAMP*
+5- Basta Mapearmos nossa php na IDEA que esta rodando 100%
 
 ### Manualmente
 
