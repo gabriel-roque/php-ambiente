@@ -120,7 +120,7 @@ Vá em frente e escolher N e passar para as próximas etapas.
 
 
 
-### Melhorando seu terminal bash - Git
+### Melhorando seu terminal shell bash - Git
 
 > Provavel de estar usando o terminal bash, o mesmo nao indica a branch que voce se encontra, porem ha solucao para seus problemas
 
