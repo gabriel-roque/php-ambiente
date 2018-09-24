@@ -117,3 +117,40 @@ Vá em frente e escolher N e passar para as próximas etapas.
 `composer -v`
 
 3- Finalizado, Bom coder! 
+
+
+
+### Melhorando seu terminal bash - Git
+
+> Provavel de estar usando o terminal bash, o mesmo nao indica a branch que voce se encontra, porem ha solucao para seus problemas
+
+1- Instalar git
+
+`sudo apt install git`
+
+2- Instalar vim
+
+`sudo apt install vim`
+
+3- Abra terminal
+
+`sudo vim .bashrc`
+
+4- Habilite as linhas, escreva esse comando com o vim aberto
+
+`:set number`
+
+5- Escreva esse comando com o vim aberto
+
+`/PS1`
+
+6- Comente a linha de codigo PS1 com # antes do comando
+
+7- Insira essa linha de codigo abaxo
+
+```
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1 " (%s)"
+)\$ 
+```
+
+8- Seja feliz e nao de commit na branch errada!
