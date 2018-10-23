@@ -3,7 +3,15 @@
 
 Repositório de anotações de configuração PHP sem uso de Docker
 
-[TOC]
+### Sumário
+
+* [Apache](#apache)
+* [PHP](#php)
+* [Mysql](#mysql)
+* [Composer](#composer)
+* [Laravel](#laravel)
+* [Upgrade bash git](#melhorando-seu-terminal-shell-bash---git)
+
 
 # Apache
 
