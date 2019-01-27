@@ -11,6 +11,8 @@ Repositório de anotações de configuração PHP sem uso de Docker
 * [Composer](#composer)
 * [Laravel](#laravel)
 * [Upgrade bash git](#melhorando-seu-terminal-shell-bash---git)
+* [NPM][#NPM]
+* [Server Laravel][#Server Laravel]
 
 
 # Apache
@@ -399,3 +401,52 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 ```
 
 8- Seja feliz e nao de commit na branch errada!
+
+# NPM
+
+Atraves do NPM posso baixar as dependencias do meu projeto direto
+
+​    1- Instalar dependencias
+
+​    ``npm install``
+
+​    ``npm install bootstrap``
+
+​    ``npm install --save-dev @fortawesome/fontawesome-free``    
+
+​    2- Compilar arquvivos
+
+``npm run dev``
+
+​    3- Apenas mapear arquivos
+
+
+
+# Server Laravel
+
+Com o comando
+
+```
+php artisan serve --host=SeuIp --port=SuaPorta
+```
+
+Podemos subir um servidor no ip que quisermos e na porta que quisermos =)
+
+Se você quiser acessar seu servidor por outro computador, basta você acessar pelo seu ip na porta escolhida através do navegador.
+
+Por exemplo:
+
+```
+php artisan serve --host=192.168.0.1 --port=3000
+```
+
+No navegador você acessaria algo como:
+
+```
+192.168.0.1:3000
+```
+
+Lembre-se de escolher uma porta que esteja aberta ou de abrir a porta que você escolher =)
+
+
+
