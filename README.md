@@ -292,7 +292,7 @@ sudo apt-get install php7.2-mbstring
 A extensão do suporte para o XML.
 
 ```
-sudo apt-get install php-xml
+sudo apt-get install php7.2-xml
 ```
 
 E a extensão do zip do php.
