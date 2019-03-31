@@ -13,6 +13,9 @@ Repositório de anotações de configuração PHP sem uso de Docker
 * [Upgrade bash git](#melhorando-seu-terminal-shell-bash---git)
 * [NPM](#npm)
 * [Server Laravel](#server-laravel)
+* [Deploy Manual Laravel (Hosting)](#hospedagem-deploy-manual---laravel)
+
+
 
 
 # Apache
