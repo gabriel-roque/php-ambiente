@@ -448,5 +448,24 @@ No navegador você acessaria algo como:
 
 Lembre-se de escolher uma porta que esteja aberta ou de abrir a porta que você escolher =)
 
+# Hospedagem Deploy Manual - Laravel
+
+Laravel em um servidor de hospedagem compartilhada como Hostinger, Hostgator, Hostnet, Weblink, Bluehost, eHost, etc.
+
+1- Compacte seu projeto inteiro. OBS: não inclua a pasta <strong>node_modules</strong>, se houver;
+
+2- Acesse o gerenciador de arquivos do seu servidor de hospedagem e faça o upload do seu projeto já compactado;
+
+3- Ainda no seu gerenciador de arquivos, utilize a função para descompactar seu arquivo em um diretório acima da sua pasta <strong>public_html</strong> ou www, htdocs;
+   
+4- Após a extração, mova todos arquivos da pasta <strong>public</strong> do seu projeto Laravel para a sua pasta <strong>public_html</strong>. OBS: apenas os arquivos que estão dentro dela, não a pasta em si;
+
+5- Apague a pasta <strong>public</strong> que ficará vazia e inútil a partir de agora;
+
+6- Dê permissão 777 às pastas <strong>storage e bootstrap/cache;</strong>
+
+7- Importe seu ```.sql``` para o banco de dados utilizado no seu servidor de hospedagem;
+
+8- Não se esqueça de revisar seu arquivo ```.env``` se a configuração está correta de acordo com sua hospedagem, como por exemplo, a conexão com o banco de dados.
 
 
