@@ -258,6 +258,25 @@ Isso significa que o MySQL está funcionando.
 
 
 
+Se você quiser fazer login como root através de programas externos, como o phpMyAdmin, você tem duas opções:
+
+A primeira opção é alterando o método de autenticação do usuário root:
+
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'senha_da_nasa';
+FLUSH PRIVILEGES;
+exit;
+```
+
+E a segunda opção recomendada é criar um usuário administrativo com acesso a todos os bancos de dados, sem alterar o método de autenticação do root:
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'senha_da_nasa';
+exit;
+```
+
+
+
 # Composer
 
 1- Basta executar o comando para instalar
@@ -460,7 +479,7 @@ Laravel em um servidor de hospedagem compartilhada como Hostinger, Hostgator, Ho
 2- Acesse o gerenciador de arquivos do seu servidor de hospedagem e faça o upload do seu projeto já compactado;
 
 3- Ainda no seu gerenciador de arquivos, utilize a função para descompactar seu arquivo em um diretório acima da sua pasta <strong>public_html</strong> ou www, htdocs;
-   
+
 4- Após a extração, mova todos arquivos da pasta <strong>public</strong> do seu projeto Laravel para a sua pasta <strong>public_html</strong>. OBS: apenas os arquivos que estão dentro dela, não a pasta em si;
 
 5- Apague a pasta <strong>public</strong> que ficará vazia e inútil a partir de agora;
