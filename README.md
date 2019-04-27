@@ -39,7 +39,7 @@ apt-get update && apt-get upgrade
 Next, to install PHP 7.2 on Ubuntu 18.04, just run the following command:
 
 ```
-apt-get install php
+apt-get install php7.2
 ```
 
 This command will install PHP 7.2, as well as some other dependencies.
