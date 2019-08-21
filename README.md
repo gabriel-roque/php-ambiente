@@ -22,7 +22,9 @@ Repositório de anotações de configuração PHP sem uso de Docker
 
 ## How to Install PHP 7.2 on Ubuntu 18.04
 
-
+```
+sudo apt install apache2
+```
 
 PHP 7.2 is included by default in Ubuntu’s repositories since version 18.04. So the instructions are pretty similar to PHP 7 for 16.04.
 
