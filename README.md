@@ -364,14 +364,14 @@ composer global require "laravel/installer"
 Para o comando *laravel* funcionar precisamos adicionar uma linha no arquivo*bashrc* se você estiver usando apenas o terminal.
 
 ```
-echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.config/composer/vendor/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
 Ou adicionar uma linha no *zshrc* se estiver usando o [ZSH](https://medium.com/@rgdev/como-instalar-oh-my-zsh-c0f96218fd90).
 
 ```
-echo 'export PATH="$HOME/.composer/vendor/bin:$PATH"' >>  ~/.zshrc
+echo 'export PATH="$HOME/.config/composer/vendor/bin:$PATH"' >>  ~/.zshrc
 source ~/.zshrc
 ```
 
